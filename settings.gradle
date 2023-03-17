@@ -17,3 +17,6 @@ dependencyResolutionManagement {
 rootProject.name = "PrinterVersionTwo"
 include ':app'
 include ':printertwo'
+
+include ':NewSDK'
+project(':NewSDK').projectDir = new File('app/libs/NewSDK')
